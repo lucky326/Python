@@ -19,7 +19,7 @@ def Accept():
 def Display():
     for i in range(len(Name)):
         print(Name[i],' ',Roll_no[i],' ',Marks1[i],' ',Marks2[i],'\n')
-        return
+    return
     
 def Search():
     S=int(input("\nEnter the Roll_Number to search: "))
